@@ -1,0 +1,107 @@
+/* General Body Styles */
+body {
+    font-family: 'Georgia', serif; 
+    background-color: #f4f4f4; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/img/egypt3.PNG'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Title Banner Styles */
+.title-banner {
+    background-color: #d67f4f; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Papyrus', cursive; 
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 235, 205, 0.8); /* Sand transparent background */
+}
+
+/* Link Styles */
+a {
+    color: #d67f4f; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    border-bottom: 2px solid #d67f4f; 
+    padding-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #d67f4f; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Section Styles */
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #d67f4f; /* Sand-orange border */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Typography Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif; 
+    color: #333; 
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+}
+
+/* Button Styles */
+.btn-sand-orange {
+    background-color: #d67f4f !important;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-sand-orange:hover {
+    background-color: #c66f3a !important; /* Darker on hover */
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 1rem;
+}

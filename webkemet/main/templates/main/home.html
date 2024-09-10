@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Ancient Egypt</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="title-banner">
+        <h1>- Pharaoh's Calling -</h1>
+    </header>
+    
+    <!-- Main Content Section -->
+    <div class="container mt-4">
+        <section>
+            <h3>☥ Pharaoh's Calling, Our new web gaming project is finally in development! ☥</h3>
+            <h4>𓃡 The project will be available on a variety of browsers and gaming platforms.</h4>
+            <p>
+                Do you have what it takes to conquer the dry African wasteland? Predynastic Egypt is a cruel and harsh place, where the sun will bake you like burnt bread, the animals will test your might and fortitude, and the sands will scour your skin without grace. Under these barbarous conditions, you will be beaten like bronze between the hammer and anvil. Only then will you thrive as a warrior, as Pharaoh. The desert sands will be yours to rule as you band together with other warriors to teach the wasteland to bend to your will, as you bring Egypt into a new era.
+            </p>
+            <h5>𓃡 Register an account below for the latest news and early rewards!</h5>
+            <p>
+                Predev accountholders will be granted gifts such as unique crafting knowledge, a Truth-Dipped Khopesh, The Old guard Shendyt, and other surprise gifts! Predev accountholders will also get optional emails on the latest news and devstreams, where you can share your thoughts and feedback with us.
+            </p>
+        </section>
+
+        <!-- Action Buttons -->
+        <div class="mt-4">
+            <a href="{% url 'contact' %}" class="btn btn-sand-orange mr-2">Register</a>
+            <a href="{% url 'figures' %}" class="btn btn-sand-orange mr-2">Universe</a>
+            <a href="{% url 'about' %}" class="btn btn-sand-orange">Learn More</a>
+        </div>
+    </div>
+    
+    <!-- Footer Section -->
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 revenantraiders.inc, a game development team.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+

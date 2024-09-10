@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Ancient Egypt</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="title-banner">
+        <h1>- Pharaoh's Calling -</h1>
+    </header>
+    
+    <!-- Main Content Section -->
+    <div class="container mt-4">
+        <section>
+            <h3>☥ Pharaoh's Calling, in development by the 'Revenant Raiders' dev team</h3>
+            <h4>𓃡 We are finally starting development!, But what is Pharaoh's calling?</h4>
+            <p>
+                At Revenant Raiders, we are excited to unveil our latest endeavor, Pharaoh's Calling. This ambitious game invites players into a richly detailed world where they can create and customize their own characters, set out on thrilling survival quests, and craft an array of tools and weapons. As you delve into this expansive universe, you'll gather resources and harness your skills to build and sustain a flourishing civilization. Whether you're collaborating with other players or interacting with sophisticated NPCs, every choice you make will shape your unique adventure and contribute to the growth of your community.
+            </p>
+            <p>
+                Pharaoh's Calling offers a deep and engaging gameplay experience with its dynamic world and multifaceted mechanics. Players will find themselves immersed in the challenge of balancing survival with the strategic planning required to develop their civilization. From crafting essential items to managing resources and forging alliances, the game encourages a blend of creativity, strategy, and teamwork. The rich environment and interactive elements ensure that every session offers new opportunities and challenges, making each player's journey distinct and memorable.
+            </p>
+            <p>
+                Adding a cutting-edge element to the gaming experience, Pharaoh's Calling will integrate cryptocurrency to facilitate the trading of rare and valuable items. This innovative feature allows players to engage in a sophisticated economy, trading items with real-world value and enhancing their in-game experience. The incorporation of crypto not only adds a layer of economic strategy but also creates a vibrant marketplace where players can leverage their discoveries for tangible rewards. Join us in shaping this revolutionary game, where adventure meets modern technology and community-driven play.
+            </p>
+            <h5>𓃡 Register an account below for the latest news and early rewards!</h5>
+            <p>
+                Predev accountholders will be granted gifts such as unique crafting knowledge, a Truth-Dipped Khopesh, The Old guard Shendyt, and other surprise gifts! Predev accountholders will also get optional emails on the latest news and devstreams, where you can share your thoughts and feedback with us.
+            </p>
+        </section>
+
+        <!-- Action Buttons -->
+        <div class="mt-4">
+            <a href="{% url 'home' %}" class="btn btn-sand-orange">Homepage</a>            
+            <a href="{% url 'contact' %}" class="btn btn-sand-orange mr-2">Register</a>
+            <a href="{% url 'figures' %}" class="btn btn-sand-orange mr-2">Universe</a>
+        </div>
+    </div>
+    
+    <!-- Footer Section -->
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 revenantraiders.inc, a game development team.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
