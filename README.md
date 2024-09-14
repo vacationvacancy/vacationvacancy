@@ -1,7 +1,8 @@
 # JH Boonzaaier - Personal Resume Website
 
 ## Description
-This is my personal resume website, designed to showcase my skills, experience, and contact information. The site is built using HTML and CSS, featuring a clean, responsive design to ensure optimal viewing across devices. It also includes links to my GitHub profile and a brief bio, providing an overview of my professional background.
+This is a Bootstrap example task that displays a variety of food products and their prices. The purpose of this task is to 
+train and learn how to utilize basic bootstrap elements, such as hover effects and neat bootstrap formatting of web pages.
 
 ## Table of Contents
 1. [Description](#description)
